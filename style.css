@@ -1,0 +1,93 @@
+/*normal mode start */
+.normal-mode h1 {
+    background-color: aqua;
+
+
+}
+
+
+.normal-mode h2 {
+    background-color: blue;
+
+
+}
+
+.normal-mode h3 {
+
+    background-color: blueviolet;
+}
+
+.normal-mode p {
+
+    background-color: chartreuse;
+}
+
+
+.normal-mode span {
+
+
+    background-color: brown;
+
+}
+
+.normal-mode bold {
+
+
+    background-color: red;
+}
+
+
+/*normal mode end */
+
+
+
+
+/*change  mode start */
+
+
+.after-change-mode h1 {
+    background-color: aqua;
+
+    display: inline;
+}
+
+
+.after-change-mode h2 {
+    background-color: blue;
+    display: inline;
+
+}
+
+.after-change-mode h3 {
+
+    background-color: blueviolet;
+    display: inline;
+}
+
+.after-change-mode p {
+
+    background-color: chartreuse;
+    display: inline;
+}
+
+
+.after-change-mode span {
+
+
+    background-color: brown;
+    display: block;
+
+}
+
+.after-change-mode bold {
+
+    display: block;
+    background-color: red;
+}
+
+
+
+
+
+
+/*change mode end */
