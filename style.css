@@ -86,8 +86,69 @@
 }
 
 
+.inline-block p {
+
+
+    background-color: green;
+    display: inline-block;
+    margin-left: 10px;
+    height: 300px;
+    width: 300px;
+}
+
 
 
 
 
 /*change mode end */
+
+.hover-now p:hover {
+
+    color: green;
+    background-color: blueviolet;
+}
+
+.focuse-now input:focus {
+
+    color: brown;
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+.visited a:visited {
+
+
+    color: red;
+
+
+}
+
+li:first-child {
+
+    font-size: 40px;
+    color: green;
+}
+
+li:last-child {
+
+    font-size: 25px;
+    color: blueviolet
+}
+
+li:nth-child(2n) {
+
+    color: yellow;
+}
+
+.sudo-ele p::before {
+
+
+    content: 'my ';
+}
+
+.sudo-ele p::after {
+
+
+    content: 'love ';
+}
